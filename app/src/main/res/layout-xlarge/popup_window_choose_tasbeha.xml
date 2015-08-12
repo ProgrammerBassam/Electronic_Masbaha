@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 Bassam Badr, The Electronic Masbaha Project
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASICS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/settings_item_layout_bg">
+
+    <com.bassambadr.electronicmasbaha.widgets.CustomeTextView
+        widget:zrnic="zrnic.ttf"
+        android:id="@+id/close_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/logo_text_padding"
+        android:textColor="@color/background_color"
+        android:background="@color/backgroundd_color_4"
+        android:text="@string/change_bg_close"
+        android:layout_gravity="left|top"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal">
+
+        <com.bassambadr.electronicmasbaha.widgets.CusomeAutoCompleteTextView
+            widget:zrnic="zrnic.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/new_sebha_choose_string"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tasbeha_name_et"/>
+
+        <com.bassambadr.electronicmasbaha.widgets.CustomeEditText
+            widget:zrnic="zrnic.ttf"
+            android:id="@+id/counter_et"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:gravity="center_vertical"
+            android:hint="@string/new_sebha_edittext_string"/>
+
+        <com.bassambadr.electronicmasbaha.widgets.CustomeButton
+            widget:zrnic="zrnic.ttf"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_btn"
+            android:layout_marginTop="15dp"
+            android:text="@string/new_sebha_start_string"/>
+
+    </LinearLayout>
+
+</LinearLayout>

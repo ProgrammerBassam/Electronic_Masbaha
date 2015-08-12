@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 Bassam Badr, The Electronic Masbaha Project
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASICS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_gravity="center_vertical">
+
+    <com.bassambadr.electronicmasbaha.widgets.CustomeTextView
+        widget:zrnic="zrnic.ttf"
+        android:layout_marginTop="@dimen/views_top_margin"
+        android:textSize="@dimen/logo_text_size"
+        android:id="@+id/tas_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/logo_text_padding"
+        android:background="@color/tv_background_color"
+        android:text="@string/new_string"
+        android:textColor="@color/background_color"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/count_ll"
+            android:orientation="vertical"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/ring_shape"
+            android:layout_gravity="center" />
+
+        <com.bassambadr.electronicmasbaha.widgets.CustomeTextView
+            widget:zrnic="zrnic.ttf"
+            android:background="@drawable/log_item_bg"
+            android:padding="5dp"
+            android:textColor="@color/background_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/counter_tv"
+            android:text="0"
+            android:textSize="35sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent">
+
+            <com.bassambadr.electronicmasbaha.widgets.CustomeButton
+                widget:zrnic="zrnic.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/new_btn"
+                android:text="@string/new_string"
+                android:textSize="@dimen/button_text_size"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent">
+
+            <com.bassambadr.electronicmasbaha.widgets.CustomeButton
+                widget:zrnic="zrnic.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/night_mode_btn"
+                android:text="@string/night_mode_string"
+                android:textSize="@dimen/button_text_size"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

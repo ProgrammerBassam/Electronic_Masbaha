@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Splash Activity واجهة الإقلاع-->
+    <dimen name="logo_text_padding">20dp</dimen>
+    <dimen name="logo_text_size">35sp</dimen>
+    <dimen name="status_text_size">25sp</dimen>
+    <dimen name="status_text_margin_bottom">20dp</dimen>
+    <dimen name="center_image_height_width">200dp</dimen>
+    <dimen name="center_progress_bar_height_width">240dp</dimen>
+
+    <!-- واجهة actionbar_layout.xml-->
+    <dimen name="image_logo_size">150dp</dimen>
+    <dimen name="text_logo_top_margin">20dp</dimen>
+    <dimen name="text_logo_size">25sp</dimen>
+
+    <!-- main_body_layout.xml -->
+    <dimen name="button_width">250dp</dimen>
+    <dimen name="button_top_margin">15dp</dimen>
+
+    <!-- settings_body_layout.xml && popup_window_colors.xml -->
+    <dimen name="layout_top_margin">15dp</dimen>
+    <dimen name="texeview_size">120dp</dimen>
+    <dimen name="settings_item_font_size">20sp</dimen>
+
+
+    <!-- about_us_body_layout.xml -->
+    <dimen name="text_size">25sp</dimen>
+
+    <!-- log_item.xml -->
+    <dimen name="views_padding">15dp</dimen>
+    <dimen name="views_text_size">25sp</dimen>
+
+</resources>

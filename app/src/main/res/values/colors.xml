@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#ECF0F1</color>
+    <color name="tv_background_color">#1FC4A4</color>
+
+    <color name="backgroundd_color_1">#FCE320</color>
+    <color name="backgroundd_color_2">#A7D3CE</color>
+    <color name="backgroundd_color_3">#C8E5B5</color>
+    <color name="backgroundd_color_4">#D53471</color>
+    <color name="backgroundd_color_5">#000000</color>
+
+</resources>

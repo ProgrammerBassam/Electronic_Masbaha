@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">المسبحة الإلكترونية</string>
+
+    <!-- واجهة الإقلاع Splash-->
+    <string name="getting_ready_string">الإستعداد للبدء...</string>
+
+    <!-- main_body_layout.xml -->
+    <string name="new_btn_string">مسبحة جديدة</string>
+    <string name="today_count_string">تسبيحات اليوم</string>
+    <string name="settings_string">إعدادات</string>
+    <string name="about_us_string">من نحن</string>
+
+    <!-- New Sebha -->
+    <string name="new_sebha_choose_string">إختر</string>
+    <string name="new_sebha_edittext_string">عدد التسبيحات</string>
+    <string name="new_sebha_start_string">إبدأ</string>
+    <string name="new_string">جديد</string>
+    <string name="night_mode_string">الوضع الليلي</string>
+    <string name="error_empty">الرجاء ملئ الحقول</string>
+
+    <!-- Settings Activity -->
+    <string name="alarm_settings_string">إعدادات المنبه</string>
+    <string name="alarm_settings_active_alarm_string">تفعيل المنبه</string>
+    <string name="alarm_settings_active_vibration_string">تفعيل الهزاز للمنبه</string>
+    <string name="alarm_settings_active_sound_string">تفعيل صوت للمنبه</string>
+    <string name="vibration_settings_string">إعدادات الهزاز</string>
+    <string name="vibration_settings_active_vibrate_string">تفعيل الهزاز عند كل تسبيحة</string>
+    <string name="vibration_settings_active_vibrate_end_string">تفعيل هزاز طويل عند الإنتهاء من التسبيحة</string>
+    <string name="sound_settings_string">إعدادات الصوت</string>
+    <string name="sound_settings_active_string">تفعيل الصوت</string>
+    <string name="sound_settings_choose_string">إختيار الصوت</string>
+    <string name="app_settings_string">إعدادات التطبيق</string>
+    <string name="app_settings_change_bg_string">تغيير الخلفية</string>
+    <string name="app_settings_reset_string">تهيئة الإعدادات</string>
+    <string name="app_settings_rate_string">تقييم التطبيق</string>
+    <string name="app_settings_share_string">مشاركة التطبيق</string>
+    <string name="change_bg_close">إغلاق</string>
+
+    <!-- about_us_body_layout.xml -->
+    <string name="contact_us_detail_string">ييمكنكم التواصل معنا عن طريق
+    \n
+    واتساب : - 00967701188427
+    \n
+    فيس بوك :- /Programmer Bassam
+    \n
+    يوتيوب :- Bassam badr</string>
+
+
+</resources>

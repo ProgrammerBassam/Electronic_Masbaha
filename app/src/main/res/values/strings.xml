@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Electronic Masbaha</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2338165942707057/3022226864 </string>
+
+    <!-- Splash Activity -->
+    <string name="getting_ready_string">Getting Ready...</string>
+
+    <!-- main_body_layout.xml -->
+    <string name="new_btn_string">New Tasbeha</string>
+    <string name="today_count_string">Log</string>
+    <string name="settings_string">Settings</string>
+    <string name="about_us_string">About Us</string>
+
+    <!-- New Sebha -->
+    <string name="new_sebha_choose_string">Choose</string>
+    <string name="new_sebha_edittext_string">Input Count</string>
+    <string name="new_sebha_start_string">Start</string>
+    <string name="new_string">New</string>
+    <string name="night_mode_string">Night Mode</string>
+    <string name="error_empty">Don\'t let any field empty</string>
+
+    <!-- Settings Activity -->
+    <string name="alarm_settings_string">Alarm Settings</string>
+    <string name="alarm_settings_active_alarm_string">Active Reminder Alarm</string>
+    <string name="alarm_settings_active_vibration_string">Active Vibration</string>
+    <string name="alarm_settings_active_sound_string">Active Sound Alarm</string>
+    <string name="vibration_settings_string">Vibrate Settings</string>
+    <string name="vibration_settings_active_vibrate_string">Active Vibrate for every tasbeha</string>
+    <string name="vibration_settings_active_vibrate_end_string">Active long Vibrate for end of tasbeha</string>
+    <string name="sound_settings_string">Sound Settings</string>
+    <string name="sound_settings_active_string">Active Sound</string>
+    <string name="sound_settings_choose_string">Choose Sound</string>
+    <string name="app_settings_string">App Settings</string>
+    <string name="app_settings_change_bg_string">Change Background</string>
+    <string name="app_settings_reset_string">Reset Settings</string>
+    <string name="app_settings_rate_string">Rate App</string>
+    <string name="app_settings_share_string">Share App</string>
+    <string name="change_bg_close">Close</string>
+
+    <!-- about_us_body_layout.xml -->
+    <string name="contact_us_detail_string">You can contact with us in
+    \n
+Whatsup :- 00967701188427
+    \n
+FaceBook :- Programmer Bassam
+    \n
+Youtube :- Bassam badr </string>
+
+
+</resources>

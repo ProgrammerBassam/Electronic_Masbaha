@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomeTextView">
+        <attr name="zrnic" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomeArabicTextView">
+        <attr name="DroidSansArabic" format="string"/>
+    </declare-styleable>
+</resources>
